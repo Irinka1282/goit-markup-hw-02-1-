@@ -1,0 +1,406 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+.body {
+  background-color: #f5f5f5;
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+}
+/* Header */
+
+.header .logoweb {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26 px;
+  line-height: 1.19;
+  letter-spacing: 00.03 em;
+  text-decoration: none;
+}
+
+.header .logostudio {
+  color: var(--primary-text-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26 px;
+  line-height: 1.19;
+  letter-spacing: 0.03 em;
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.nav-items .link-studio {
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 14 px;
+  line-height: 1.14;
+  letter-spacing: 0.02 em;
+}
+.nav-items .link-studio :current {
+  color: var(--accent-color);
+}
+.nav-items .link-studio :hover,
+:focus {
+  color: var(--accent-color);
+}
+.nav-items .link-portfolio {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14 px;
+  line-height: 1.14;
+  letter-spacing: 00.02 em;
+}
+.nav-items .link-portfolio :current {
+  color: var(--accent-color);
+}
+.nav-items .link-portfolio :hover,
+:focus {
+  color: var(--accent-color);
+}
+
+.nav-items .link-contacts {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14 px;
+  line-height: 1.14;
+  letter-spacing: 0.02 em;
+}
+.nav-items .link-contacts :hover,
+:focus {
+  color: var(--accent-color);
+}
+
+.link-mailto {
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 14 px;
+  line-height: 1.17;
+  letter-spacing: 0.02 em;
+}
+.nav-items .link-mailto :hover,
+:focus {
+  color: var(--accent-color);
+}
+
+.nav-items .link-tel {
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 14 px;
+  line-height: 1.17;
+  letter-spacing: 0.02 em;
+}
+.nav-items .link-tel :hover,
+:focus {
+  color: var(--accent-color);
+}
+
+/* hero */
+.hero {
+  background-color: #2f303a;
+}
+.hero .hero-title {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44 px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06 em;
+}
+.button.primary {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16 px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06 em;
+}
+.button.primary :hover .button.primary :focus {
+  color: var(--accent-color);
+}
+.button.primary :active {
+  color: var(--accent-color);
+}
+
+/* Features */
+.features .title {
+  color: var(--primary-text-color);
+  font-size: 14 px;
+  line-height: 1.14;
+  letter-spacing: 0.03 em;
+}
+.features .item {
+  color: var(--secondary-text-color);
+  font-size: 14 px;
+  line-height: 1.71;
+  letter-spacing: 0.03 em;
+}
+
+/* Work */
+.work .title {
+  color: var(--primary-text-color);
+  font-size: 36 px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03 em;
+}
+
+/* Наша команда */
+.team .title {
+  color: var(--primary-text-color);
+  font-size: 36 px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03 em;
+}
+.team .title-name {
+  color: var(--primary-text-color);
+  font-size: 16 px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03 em;
+}
+
+.team .list {
+  color: var(--secondary-text-color);
+  font-size: 16 px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03 em;
+}
+/* Contacts */
+.contacts {
+  background-color: #2f303a;
+}
+
+.contacts .logoweb {
+  color: var(--accent-color);
+  font-weight: 700;
+  font-size: 26 px;
+  line-height: 1.19;
+  letter-spacing: 0.03 em;
+}
+.contacts .logostudio {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 26 px;
+  line-height: 1.19;
+  letter-spacing: 0.03 em;
+}
+.contacts .address-link {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14 px;
+  line-height: 1.71;
+  letter-spacing: 0.03 em;
+}
+
+.contacts .mailto-link {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14 px;
+  line-height: 1.71;
+  letter-spacing: 0.03 em;
+}
+.contacts .tel-link {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14 px;
+  line-height: 1.71;
+  letter-spacing: 0.03 em;
+}
+
+/* Portfolio */
+
+/* Header */
+
+.header .logoweb {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26 px;
+  line-height: 1.19;
+  letter-spacing: 00.03 em;
+  text-decoration: none;
+}
+
+.header .logostudio {
+  color: var(--primary-text-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26 px;
+  line-height: 1.19;
+  letter-spacing: 0.03 em;
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.nav-items .link-studio {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14 px;
+  line-height: 1.14;
+  letter-spacing: 0.02 em;
+}
+.nav-items .link-studio :current {
+  color: var(--accent-color);
+}
+.nav-items .link-studio :hover,
+:focus {
+  color: var(--accent-color);
+}
+.nav-items .link-portfolio {
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 14 px;
+  line-height: 1.14;
+  letter-spacing: 00.02 em;
+}
+.nav-items .link-portfolio :current {
+  color: var(--accent-color);
+}
+.nav-items .link-portfolio :hover,
+:focus {
+  color: var(--accent-color);
+}
+
+.nav-items .link-contacts {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14 px;
+  line-height: 1.14;
+  letter-spacing: 0.02 em;
+}
+.nav-items .link-contacts :hover,
+:focus {
+  color: var(--accent-color);
+}
+
+.link-mailto {
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 14 px;
+  line-height: 1.17;
+  letter-spacing: 0.02 em;
+}
+.nav-items .link-mailto :hover,
+:focus {
+  color: var(--accent-color);
+}
+
+.nav-items .link-tel {
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 14 px;
+  line-height: 1.17;
+  letter-spacing: 0.02 em;
+}
+.nav-items .link-tel :hover,
+:focus {
+  color: var(--accent-color);
+}
+/* Filters */
+.button .button-primary {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 500;
+  font-style: 400;
+  font-size: 16 px;
+  line-height: 1.63;
+  letter-spacing: 0.03 em;
+}
+
+.button .button-primary :hover .button .button-primary :focus {
+  color: var(--accent-color);
+}
+.button .button-primary :active {
+  color: var(--accent-color);
+}
+
+.button .button-secondary {
+  background-color: var(--secondary-text-color);
+  color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-style: 400;
+  font-size: 16 px;
+  line-height: 1.63;
+  letter-spacing: 0.03 em;
+}
+.button .button-secondary :hover .button .button-secondary :focus {
+  color: var(--accent-color);
+}
+
+.button .button-secondary :active {
+  color: var(--accent-color);
+}
+
+/* Portfolio */
+
+.portfolio .title {
+  color: var(--primary-text-color);
+  font-size: 18 px;
+  line-height: 2;
+  letter-spacing: 0.06 em;
+}
+
+.portfolio .list {
+  color: var(--secondary-text-color);
+  font-size: 16 px;
+  line-height: 1.88;
+  letter-spacing: 0.03 em;
+}
+
+/* Contacts */
+.contacts {
+  background-color: #2f303a;
+}
+
+.contacts .logoweb {
+  color: var(--accent-color);
+  font-weight: 700;
+  font-size: 26 px;
+  line-height: 1.19;
+  letter-spacing: 0.03 em;
+}
+.contacts .logostudio {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 26 px;
+  line-height: 1.19;
+  letter-spacing: 0.03 em;
+}
+.contacts.address-link {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14 px;
+  line-height: 1.71;
+  letter-spacing: 0.03 em;
+}
+
+.contacts .mailto-link {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14 px;
+  line-height: 1.71;
+  letter-spacing: 0.03 em;
+}
+.contacts .tel-link {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14 px;
+  line-height: 1.71;
+  letter-spacing: 0.03 em;
+}
