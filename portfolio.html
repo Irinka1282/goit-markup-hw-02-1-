@@ -5,15 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфоліо</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Шапка -->
-    <header class="header">
-      <nav>
-        <a href="logo"><span class="logoweb">Web</span><span class="logostudio">Studio</span> </a>
-        <ul class="nav-items list">
-          <li><a href="./index.html" lang="uk" class="link-studio">Студія</a></li>
+    <header>
+      <nav class="link">
+        <a class="logo" href="logo"
+          ><span class="logo-web">Web</span><span class="logo-studio">Studio</span>
+        </a>
+        <ul class="nav-link">
+          <li><a href="./index.html" class="link-studio">Студія</a></li>
           <li><a href="" class="link-portfolio">Портфоліо</a></li>
           <li><a href="" class="link-contacts">Контакти</a></li>
           <li><a href="mailto:info@devstudio.com " class="link-mailto">info@devstudio.com</a></li>
@@ -26,41 +32,37 @@
       <section>
         <h1>ALL</h1>
         <ul class="button">
-          <li class="button-primary"><button type="button">Усі</button></li>
-          <li class="button-secondary"><button type="button">Веб-сайти</button></li>
-          <li class="button-secondary"><button type="button">Додатки</button></li>
-          <li class="button-secondary"><button type="button">Дизайн</button></li>
-          <li class="button-secondary"><button type="button">Маркетинг</button></li>
+          <li><button class="button-primary" type="button">Усі</button></li>
+          <li><button class="button-secondary" type="button">Веб-сайти</button></li>
+          <li><button class="button-secondary" type="button">Додатки</button></li>
+          <li><button class="button-secondary" type="button">Дизайн</button></li>
+          <li><button class="button-secondary" type="button">Маркетинг</button></li>
         </ul>
-      </section>
-      <!-- Portfolio -->
-      <section class="portfolio">
-        <h2>Портфоліо</h2>
         <ul class="list">
           <li>
             <img src="./images/img4.jpg" alt="реклама веб-сайту" width="370" height="295" />
-            <h3 class="title">Технокряк</h3>
-            <p>Веб-сайт</p>
+            <h2 class="title">Технокряк</h2>
+            <p class="list-item">Веб-сайт</p>
           </li>
           <li>
             <img src="./images/img5.jpg" alt="дизайн постеру" width="370" height="295" />
-            <h3 class="title">Постер New Orlean vs Golden Star</h3>
-            <p>Дизайн</p>
+            <h2 class="title">Постер New Orlean vs Golden Star</h2>
+            <p class="list-item">Дизайн</p>
           </li>
           <li>
             <img src="./images/img6.jpg" alt="додаток ресторану" width="370" height="295" />
-            <h3 class="title">Ресторан Seafood</h3>
-            <p>Додаток</p>
+            <h2 class="title">Ресторан Seafood</h2>
+            <p class="list-item">Додаток</p>
           </li>
           <li>
             <img src="./images/img7.jpg" alt="маркетинг проекту прайм" width="370" height="295" />
-            <h3 class="title">Проєкт Prime</h3>
-            <p>Маркетинг</p>
+            <h2 class="title">Проєкт Prime</h2>
+            <p class="list-item">Маркетинг</p>
           </li>
           <li>
             <img src="./images/img8.jpg" alt="додаток boxes" width="370" height="295" />
-            <h3 class="title">Проєкт Boxes</h3>
-            <p>Додаток</p>
+            <h2 class="title">Проєкт Boxes</h2>
+            <p class="list-item">Додаток</p>
           </li>
           <li>
             <img
@@ -69,34 +71,37 @@
               width="370"
               height="295"
             />
-            <h3 class="title">Inspiration has no Borders</h3>
-            <p>Веб-сайтa</p>
+            <h2 class="title">Inspiration has no Borders</h2>
+            <p class="list-item">Веб-сайтa</p>
           </li>
           <li>
             <img src="./images/img10.jpg" alt="дизайн видання" width="370" height="295" />
-            <h3 class="title">Видання Limited Edition</h3>
-            <p>Дизайн</p>
+            <h2 class="title">Видання Limited Edition</h2>
+            <p class="list-item">Дизайн</p>
           </li>
           <li>
             <img src="./images/img11.jpg" alt="маркетинг lab" width="370" height="295" />
-            <h3 class="title">Проєкт LAB</h3>
-            <p>Маркетинг</p>
+            <h2 class="title">Проєкт LAB</h2>
+            <p class="list-item">Маркетинг</p>
           </li>
           <li>
             <img src="./images/img12.jpg" alt="додаток Growing Business" width="370" height="295" />
-            <h3 class="title">Growing Business</h3>
-            <p>Додаток</p>
+            <h2 class="title">Growing Business</h2>
+            <p class="list-item">Додаток</p>
           </li>
         </ul>
       </section>
     </main>
     <!-- Contacts -->
     <footer class="contacts">
-      <a href="logo"><span class="logoweb">Web</span><span class="logostudio">Studio</span> </a>
+      <a class="logo" href="logo"
+        ><span class="logoweb">Web</span><span class="logostudio">Studio</span>
+      </a>
       <address>
-        <ul>
-          <li class="address-link">
+        <ul class="link">
+          <li>
             <a
+              class="addres-link"
               href="https://goo.gl/maps/8HG2NccsgcwEJH7B6"
               target="_blank"
               rel="noopener  noreferrer"
@@ -104,8 +109,8 @@
               м.Київ, пр-т Лесі Українки, 26</a
             >
           </li>
-          <li class="mailto-link"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li class="tel-link"><a href="tel:+380961111111">+380961111111</a></li>
+          <li><a class="mailto-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="tel-link" href="tel:+380961111111">+380961111111</a></li>
         </ul>
       </address>
     </footer>
