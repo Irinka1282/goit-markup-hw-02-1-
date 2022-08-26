@@ -34,7 +34,7 @@ body {
   text-decoration: none;
 }
 
-.list-studio {
+.list .list-studio {
   color: var(--accent-color);
   font-weight: 500;
   font-size: 14px;
@@ -42,14 +42,14 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.list-studio:current {
-  color: var(--accent-color);
-}
-.list-studio:hover,
-.list-studio:focus {
+.list .list-studio:current {
   color: var(--primary-text-color);
 }
-.list-portfolio {
+.list .list-studio:hover,
+.list .list-studio:focus {
+  color: var(--primary-text-color);
+}
+.list .list-portfolio {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -57,11 +57,11 @@ body {
   letter-spacing: 00.02em;
   text-decoration: none;
 }
-.list-portfolio:current {
+.list .list-portfolio:current {
   color: var(--accent-color);
 }
-.list-portfolio:hover,
-.list-portfolio:focus {
+.list .list-portfolio:hover,
+.list .list-portfolio:focus {
   color: var(--accent-color);
 }
 
@@ -256,7 +256,7 @@ body {
   text-decoration: none;
 }
 
-.list-studio {
+.studio-list {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -264,14 +264,14 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.list-studio:current {
+.studio-list:current {
   color: var(--accent-color);
 }
-.list-studio:hover,
-.list-studio:focus {
+.studio-list:hover,
+.studio-list:focus {
   color: var(--accent-color);
 }
-.list-portfolio {
+.portfolio-list {
   color: var(--accent-color);
   font-weight: 500;
   font-size: 14px;
@@ -279,15 +279,15 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.list-portfolio:current {
+.portfolio-list:current {
   color: var(--accent-color);
 }
-.list-portfolio:hover,
-.list-portfolio:focus {
+.portfolio-list:hover,
+.portfolio-list:focus {
   color: var(--primary-text-color);
 }
 
-.list-contacts {
+.contacts-list {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -295,8 +295,8 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.list-contacts:hover,
-.list-contacts:focus {
+.contacts-list:hover,
+.contacts-list:focus {
   color: var(--accent-color);
 }
 
