@@ -9,6 +9,9 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 /* Header */
+.list {
+  list-style: none;
+}
 
 .logo-web {
   color: var(--accent-color);
@@ -17,7 +20,6 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 00.03em;
-  text-decoration: none;
 }
 
 .logo-studio {
@@ -27,10 +29,12 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
+.logo {
   text-decoration: none;
 }
 
-.link-studio {
+.list-studio {
   color: var(--accent-color);
   font-weight: 500;
   font-size: 14px;
@@ -38,14 +42,14 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.link-studio:current {
+.list-studio:current {
   color: var(--accent-color);
 }
-.link-studio:hover,
-.link-studio:focus {
-  color: var(--accent-color);
+.list-studio:hover,
+.list-studio:focus {
+  color: var(--primary-text-color);
 }
-.link-portfolio {
+.list-portfolio {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -53,15 +57,15 @@ body {
   letter-spacing: 00.02em;
   text-decoration: none;
 }
-.link-portfolio:current {
+.list-portfolio:current {
   color: var(--accent-color);
 }
-.link-portfolio:hover,
-.link-portfolio:focus {
+.list-portfolio:hover,
+.list-portfolio:focus {
   color: var(--accent-color);
 }
 
-.link-contacts {
+.list-contacts {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -69,12 +73,24 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.link-contacts:hover,
-.link-contacts:focus {
+.list-contacts:hover,
+.list-contacts:focus {
   color: var(--accent-color);
 }
 
-.link-mailto {
+.contacts-link .mailto-link {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.mailto-link:hover,
+.mailto-link:focus {
+  color: var(--accent-color);
+}
+
+.contacts-link .tel-link {
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -82,28 +98,9 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.link-mailto:hover,
-.link-mailto:focus {
+.tel-link:hover,
+.tel-link:focus {
   color: var(--accent-color);
-}
-
-.link-tel {
-  color: var(--secondary-text-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-}
-.link-tel:hover,
-.link-tel:focus {
-  color: var(--accent-color);
-}
-.logo {
-  text-decoration: none;
-}
-.nav-link {
-  list-style: none;
 }
 
 /* hero */
@@ -112,12 +109,12 @@ body {
 }
 .hero-title {
   color: #ffffff;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  line-height: 116%;
   text-align: center;
-  letter-spacing: 0.06em;
+  vertical-align: top;
+  letter-spacing: 6%;
 }
 .button-primary {
   background-color: var(--accent-color);
@@ -193,7 +190,6 @@ body {
 
 .team-list {
   color: var(--secondary-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -224,28 +220,12 @@ body {
 .addres-link {
   color: #ffffff;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-.mailto-link {
-  color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-}
-.tel-link {
-  color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-}
+
 .logo {
   text-decoration: none;
 }
@@ -276,76 +256,78 @@ body {
   text-decoration: none;
 }
 
-.link-studio {
+.list-studio {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
-.link-studio:current {
+.list-studio:current {
   color: var(--accent-color);
 }
-.link-studio:hover,
-.link-studio:focus {
+.list-studio:hover,
+.list-studio:focus {
   color: var(--accent-color);
 }
-.link-portfolio {
+.list-portfolio {
   color: var(--accent-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
-.link-portfolio:current {
+.list-portfolio:current {
   color: var(--accent-color);
 }
-.link-portfolio:hover,
-.link-portfolio:focus {
+.list-portfolio:hover,
+.list-portfolio:focus {
   color: var(--accent-color);
 }
 
-.link-contacts {
+.list-contacts {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
-.link-contacts:hover,
-.link-contacts:focus {
+.list-contacts:hover,
+.list-contacts:focus {
   color: var(--accent-color);
 }
 
-.link-mailto {
-  color: var(--accent-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
-}
-.link-mailto:hover,
-.link-mailto:focus {
-  color: var(--accent-color);
-}
-
-.link-tel {
+.mailto-link {
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
-.link-tel:hover,
-.link-tel:focus {
+.mailto-link:hover,
+.mailto-link:focus {
   color: var(--accent-color);
 }
-.link {
+
+.tel-link {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
-.nav-link {
+.tel-link:hover,
+.tel-link:focus {
+  color: var(--accent-color);
+}
+
+.list {
   list-style: none;
-  text-decoration: none;
 }
 /* Filters */
 .button-primary {
@@ -357,6 +339,7 @@ body {
   line-height: 1.63;
   letter-spacing: 0.03em;
   cursor: pointer;
+  border: none;
 }
 
 .button-primary:hover,
@@ -377,14 +360,16 @@ body {
   line-height: 1.63;
   letter-spacing: 0.03em;
   cursor: pointer;
+  border: none;
 }
 .button-secondary:hover,
 .button-secondary:focus {
-  color: var(--accent-color);
+  color: #ffffff;
+  background-color: var(--accent-color);
 }
 
 .button-secondary:active {
-  color: var(--accent-color);
+  color: #ffffff;
 }
 .button {
   list-style: none;
@@ -402,7 +387,6 @@ body {
 
 .list-item {
   color: var(--secondary-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
@@ -433,25 +417,26 @@ body {
 .addres-link {
   color: #ffffff;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .mailto-link {
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .tel-link {
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
-.link {
+.contacts-link {
   list-style: none;
 }
