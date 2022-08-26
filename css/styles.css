@@ -257,7 +257,7 @@ body {
 }
 
 .list-studio {
-  color: var(--accent-color);
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -269,10 +269,10 @@ body {
 }
 .list-studio:hover,
 .list-studio:focus {
-  color: var(--primary-text-color);
+  color: var(--accent-color);
 }
 .list-portfolio {
-  color: var(--primary-text-color);
+  color: var(--accent-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -284,7 +284,7 @@ body {
 }
 .list-portfolio:hover,
 .list-portfolio:focus {
-  color: var(--accent-color);
+  color: var(--primary-text-color);
 }
 
 .list-contacts {
